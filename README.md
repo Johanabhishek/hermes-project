@@ -1,34 +1,34 @@
-# hermes-project
+
 # Project Hermes
 ## Automated Data Augmentation Selection for Time Series Anomaly Detection
 
-# Overview
+## Overview
 Project Hermes is an open-source system designed to automate the selection and evaluation of data augmentation strategies for time series anomaly detection tasks. Drawing inspiration from approaches in computer vision and AutoML, Hermes enables users to systematically benchmark augmentation policies on multiple datasets using rigorous statistical testing.
 
-# Key Features
+## Key Features
 Automated Comparative Benchmarking
 Evaluates multiple data augmentation policies (e.g., jitter, scaling, time-warping, and combinations) on standard time series anomaly detection datasets.
 
-# Statistical Significance Testing
+## Statistical Significance Testing
 Employs k-fold cross-validation and paired t-tests to rigorously measure the impact of each augmentation technique versus baseline performance.
 
-# Dataset-Agnostic
+## Dataset-Agnostic
 Out-of-the-box support for ENERGY, KPI, and YAHOO anomaly detection datasets—easy to extend to other time series data.
 
-# Reproducible Research
+## Reproducible Research
 All experiments, metrics, and results are logged with clear scripts and documentation.
 
-# Motivation
+## Motivation
 Data augmentation is widely believed to enhance machine learning models, especially in computer vision. However, our results with Project Hermes show that, for time series anomaly detection, commonly used augmentation policies may offer no benefit or can even degrade performance compared to a simple, un augmented baseline. This finding highlights the importance of automated, data driven assessment rather than relying on intuition or domain transfer from other fields.
 
-# Main Results
+## Main Results
 Across ENERGY, KPI, and YAHOO datasets, baseline (no augmentation) consistently achieved the highest accuracy, outperforming more complex augmentation strategies.
 
 Paired t-test analysis (p > 0.05) indicated no statistically significant improvement from any tested augmentation technique.
 
 For detailed results, see: johanabhishek.vercel.app
 
-# Installation
+## Installation
 shell
 git clone https://github.com/johanabhishek/hermes-project
 cd hermes
