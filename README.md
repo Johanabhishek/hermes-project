@@ -40,34 +40,22 @@ Modify the provided configuration YAML to specify datasets and augmentation poli
 
 Results and evaluation metrics will be saved in the results/ directory.
 
-Project Structure
-text
-hermes/
-│
-├── data/                   # Dataset loaders and utilities
-├── augmentation/           # Augmentation policy implementations
-├── experiments/            # Experiment setup, cross-validation, t-test code
-├── configs/                # YAML config files for experiments
-├── results/                # Output folder for logs and results
-├── run_experiments.py      # Main experiment launcher
-└── README.md               # This file
-Contributing
+## Contributing
 Contributions are welcome! Please open issues or pull requests for bugfixes, improvements, or new datasets/policies.
 
-License
+# License
 MIT License
 
-Citation
+## Citation
 If you use Project Hermes in your research, please cite:
 
-text
-@misc{hermes2025,
-  author = {Dasari, Johan Abhishek},
-  title = {Project Hermes: Automated Data Augmentation Selection for Time Series Anomaly Detection},
-  year = {2025},
-  url = {https://github.com/yourusername/hermes}
-}
-Author
+hermes2025,
+author = Dasari, Johan Abhishek,
+title = Project Hermes: Automated Data Augmentation Selection for Time Series Anomaly Detection,
+year = {2025},
+url = https://github.com/johanabhishek/hermes-project
+
+# Author
 Johan Abhishek Dasari
 johanabhishek9@gmail.com
 Nellore, Andhra Pradesh, India
