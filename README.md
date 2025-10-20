@@ -1,3 +1,4 @@
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8892c4e9-a1c1-4f24-81b5-7f1fa83e8d0d" />
 
 # Project Hermes
 ## Automated Data Augmentation Selection for Time Series Anomaly Detection
